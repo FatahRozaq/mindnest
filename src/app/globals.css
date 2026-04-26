@@ -1,26 +1,52 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* ── Font families ─────────────────────────── */
+  --font-serif: var(--font-playfair), Georgia, serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+
+  /* ── Warna Cream (latar belakang hangat) ────── */
+  --color-cream-50: #fdfcfa;
+  --color-cream-100: #f7f4ef;
+  --color-cream-200: #ede8de;
+  --color-cream-300: #ddd5c8;
+
+  /* ── Warna Forest Green (warna utama) ────────── */
+  --color-forest-50: #eff5f2;
+  --color-forest-100: #d1e5dc;
+  --color-forest-200: #9dccba;
+  --color-forest-300: #6bad97;
+  --color-forest-400: #4a7766;
+  --color-forest-500: #2d4a3e;
+  --color-forest-600: #1e3329;
+  --color-forest-700: #152720;
+
+  /* ── Warna Gold (aksen) ─────────────────────── */
+  --color-gold: #b8924a;
+  --color-gold-light: #d4af71;
+  --color-gold-dark: #8b6b30;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-cream-100);
+  font-family: var(--font-sans);
+}
+
+/* ── Custom Scrollbar ───────────────────────────── */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-cream-100);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-forest-200);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-forest-400);
 }
