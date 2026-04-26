@@ -204,10 +204,10 @@ export default async function BookDetailPage({
               </a>
 
               {/* Affiliate disclosure */}
-              <p className="text-xs text-forest-300 max-w-sm leading-relaxed">
+              {/* <p className="text-xs text-forest-300 max-w-sm leading-relaxed">
                 * Tautan di atas merupakan tautan afiliasi. Kami mungkin mendapatkan
                 komisi kecil jika Anda melakukan pembelian, tanpa biaya tambahan bagi Anda.
-              </p>
+              </p> */}
             </div>
 
             {/* Back link */}
