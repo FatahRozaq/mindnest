@@ -174,9 +174,11 @@ export default async function BookDetailPage({
             </div>
 
             {/* Rating */}
+            {/*
             <div className="mt-4">
               <StarRating rating={book.rating} />
             </div>
+            */}
 
             {/* Divider */}
             <div className="my-6 h-px bg-forest-100" />

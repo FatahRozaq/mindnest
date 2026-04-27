@@ -51,7 +51,7 @@ export default function BookCard({ book }: Props) {
 
         {/* Rating + Year */}
         <div className="flex items-center justify-between gap-2 pt-2 border-t border-cream-200">
-          <StarRating rating={book.rating} showNumber={false} />
+          {/* <StarRating rating={book.rating} showNumber={false} /> */}
           <span className="text-xs text-forest-300">{book.publishYear}</span>
         </div>
       </div>
