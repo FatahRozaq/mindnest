@@ -22,7 +22,7 @@ export interface Book {
   /** Tahun pertama kali diterbitkan */
   publishYear: number;
   /** Rating buku (skala 1.0 – 5.0) */
-  rating: number;
+  rating: number; // rating property
   /** Harga tampilan (opsional), contoh: "Rp 95.000" */
   price?: string;
   /** Jumlah halaman buku (opsional) */

@@ -68,7 +68,7 @@ export const books: Book[] = [
     publishYear: 2018,
 
     // Rating (1.0 – 5.0)
-    rating: 4.8,
+    rating: 4.8, // rating
 
     // Harga tampilan (opsional — hapus baris ini jika tidak ingin ditampilkan)
     // price: "Rp 108.000",
@@ -96,7 +96,7 @@ export const books: Book[] = [
     affiliateLink: "https://s.shopee.co.id/8V5ItKnYaV",
     genre: ["Fiksi", "Inspirasi", "Sastra"],
     publishYear: 1988,
-    rating: 4.7,
+    rating: 4.7, // rating
     // price: "Rp 65.000",
     pages: 208,
   },
@@ -121,7 +121,7 @@ export const books: Book[] = [
     affiliateLink: "https://s.shopee.co.id/8pi9I49ikx",
     genre: ["Sejarah", "Non-Fiksi", "Sains"],
     publishYear: 2011,
-    rating: 4.6,
+    rating: 4.6, // rating
     // price: "Rp 110.000",
     pages: 443,
   },
@@ -145,7 +145,7 @@ export const books: Book[] = [
     affiliateLink: "https://s.shopee.co.id/6AhO7DerjW",
     genre: ["Keuangan", "Bisnis", "Pengembangan Diri"],
     publishYear: 1997,
-    rating: 4.5,
+    rating: 4.5, // rating
     // price: "Rp 68.000",
     pages: 207,
   },
@@ -170,7 +170,7 @@ export const books: Book[] = [
     affiliateLink: "https://s.shopee.co.id/50VQj7vQq2",
     genre: ["Gaya Hidup", "Pengembangan Diri", "Filosofi"],
     publishYear: 2016,
-    rating: 4.4,
+    rating: 4.4, // rating
     // price: "Rp 85.000",
     pages: 194,
   },
@@ -195,7 +195,7 @@ export const books: Book[] = [
     affiliateLink: "https://s.shopee.co.id/7fWBu6eitW",
     genre: ["Produktivitas", "Pengembangan Diri"],
     publishYear: 2016,
-    rating: 4.6,
+    rating: 4.6, // rating
     // price: "Rp 115.000",
     pages: 296,
   },
@@ -220,7 +220,7 @@ export const books: Book[] = [
     affiliateLink: "https://s.shopee.co.id/5AoqvZIRgT",
     genre: ["Spiritualitas", "Pengembangan Diri", "Mindfulness"],
     publishYear: 1997,
-    rating: 4.5,
+    rating: 4.5, // rating
     // price: "Rp 85.000",
     pages: 229,
   },
@@ -245,7 +245,7 @@ export const books: Book[] = [
     affiliateLink: "https://s.shopee.co.id/2LUfYRjuWW",
     genre: ["Psikologi", "Non-Fiksi", "Sains"],
     publishYear: 2011,
-    rating: 4.7,
+    rating: 4.7, // rating
     // price: "Rp 148.000",
     pages: 499,
   },
